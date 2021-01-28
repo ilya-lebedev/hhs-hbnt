@@ -33,10 +33,6 @@ public class TransactionHelper {
         });
     }
 
-    public SessionFactory getSessionFactory() {
-        return sessionFactory;
-    }
-
     private Optional<Transaction> beginTransaction() {
         Transaction transaction = sessionFactory.getCurrentSession().getTransaction();
         if (transaction.isActive()) {

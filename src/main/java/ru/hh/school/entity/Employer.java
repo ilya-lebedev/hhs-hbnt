@@ -1,7 +1,5 @@
 package ru.hh.school.entity;
 
-import org.hibernate.annotations.LazyCollection;
-
 import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
